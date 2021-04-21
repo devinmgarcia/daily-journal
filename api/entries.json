@@ -1,0 +1,32 @@
+{
+    "entries": [{
+            "id": 1,
+            "date": "April 15th",
+            "concept": "Data Types",
+            "entry": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus exercitationem non rerum, incidunt quam praesentium assumenda illo laudantium quod itaque inventore esse molestiae harum libero laboriosam! Provident doloremque consequatur autem.",
+            "mood": "* * * * *"
+
+        },
+        {
+            "id": 2,
+            "date": "April 15th",
+            "concept": "Data Structures",
+            "entry": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus exercitationem non rerum, incidunt quam praesentium assumenda illo laudantium quod itaque inventore esse molestiae harum libero laboriosam! Provident doloremque consequatur autem.",
+            "mood": "* * * * *"
+        },
+        {
+            "id": 3,
+            "date": "April 15th",
+            "concept": "Worst Website",
+            "entry": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus exercitationem non rerum, incidunt quam praesentium assumenda illo laudantium quod itaque inventore esse molestiae harum libero laboriosam! Provident doloremque consequatur autem.",
+            "mood": "* * * *"
+        },
+        {
+            "id": 4,
+            "date": "April 17th",
+            "concept": "Modern-Farm",
+            "entry": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus exercitationem non rerum, incidunt quam praesentium assumenda illo laudantium quod itaque inventore esse molestiae harum libero laboriosam! Provident doloremque consequatur autem.",
+            "mood": "* * * * 8"
+        }
+    ]
+}
