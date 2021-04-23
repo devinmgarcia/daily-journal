@@ -1,3 +1,31 @@
+import { getJournalEntries, saveJournalEntry } from "./database.js"
+
+
+document.addEventListener(
+    "click",
+    (clickEvent) => {
+        const itemClicked = clickEvent.target
+        if (itemClicked.id.startsWith("submit")) {
+
+            // stores the current entry object array in a variable
+            const journalEntries = getJournalEntries()
+                // stores the last items id in a variable
+            const lastEntryId = journalEntries[journalEntries.length - 1].id
+                // creates a new object with a unique id and calls the save function to store it in the database
+            const newEntry = {
+                id: lastEntryId + 1,
+                date: document.querySelector(".entryDate").value,
+                concept: document.querySelector(".entryConcepts").value,
+                entry: document.querySelector(".entryJournal").value,
+                mood: document.querySelector(".entryMood").value
+            }
+            saveJournalEntry(newEntry)
+        }
+    }
+)
+
+
+
 export const JournalForm = () => {
     return `
     <form class="entryForm">
@@ -23,7 +51,7 @@ export const JournalForm = () => {
                     <option value="5 stars">*****</option>
                 </select>
             </fieldset>
-            <button>Submit Entry</button>
+            <button id="submit-entry">Submit Entry</button>
         </form>
     `
 }

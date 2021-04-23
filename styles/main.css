@@ -56,14 +56,12 @@ h1 {
 /* Journal Entry */
 
 .entryList {
-    border: red solid 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .journal-entry {
-    border: yellow solid 1px;
     justify-content: center;
     margin-bottom: 2rem;
     max-width: 50rem;

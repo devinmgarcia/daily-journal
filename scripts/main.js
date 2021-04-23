@@ -13,3 +13,8 @@ const render = () => {
 }
 
 render()
+
+container.addEventListener("entryStateChange",
+    console.log("State Change"),
+    render()
+)
